@@ -9,6 +9,13 @@ console.log("after Conversion");
 let aftercon = Number(numbers)
 console.log(typeof aftercon);
 
+let num = 99
+num++
+console.log(num);
+++num
+
+console.log(num);
+
 
 /*
 
