@@ -33,3 +33,30 @@ const myfun = function(){
 
 console.log( heros)
 console.log(obj)
+
+
+// ==================================================================
+
+
+/*
+Stack memory ( primitive )
+*/
+let myname = "Omkar"
+let anothername = myname
+anothername = " patil "
+console.log(anothername)
+console.log(myname)
+
+
+
+/*
+heap memory ( non-primitive )
+*/
+let userone = 
+{
+    email : " Omkar@gmail.com"
+}
+let usertwo = userone
+usertwo.email="patil@gmail.com"
+console.log(userone)
+console.log(usertwo)
